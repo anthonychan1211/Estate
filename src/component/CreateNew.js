@@ -28,11 +28,11 @@ const CreateNew = () => {
   return (
     <div className='flex' >
       <div onMouseDown={handleClick} onMouseUp={handleRelease} className='card'>
-        <img src="house.avif" alt="house"></img>
+        {/* <img src="house.avif" alt="house"></img> */}
         <p>Create New Site</p>
       </div>
       <div  onMouseDown={handleClick} onMouseUp={handleRelease} className='card'>
-        <img src="maintenance.jpg" alt="PPM"></img>
+        {/* <img src="maintenance.jpg" alt="PPM"></img> */}
         <p>Create New PPM</p>
       </div>
       {isChosen=="Create New Site" && <CreateNewSite />}

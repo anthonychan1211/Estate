@@ -18742,6 +18742,13 @@ const finalData = jsonObj.map(el => {
       <h1 className='subtitle'>Incident</h1>
       <button className='add-incident'> + Add Incident</button>
       </div>
+      <div className='filter-bar'>
+        <span>Sort by: </span>
+        <button>Submit Date</button>
+        <button>Closed Date</button>
+        <button>Priority</button>
+        <input type="text" placeholder='Search...'></input>
+      </div>
         <div className='content'>
           <div className='header'>
             <span>Incident Number</span>

@@ -5,13 +5,10 @@ const Navbar = ({isClick}) => {
 
 
    
-    function handleClick(e){
-        isClick = e.target.innerText
-    }
-
+  
   return (
     <nav className='navbar-grid'>
-        <h1>[LOGO]</h1>
+        <img src='public/ERA-logo.png'/>
         <div className='navbar-item-grid'>
           <Link to="/">Dashboard</Link>
           <Link to="/create">Create New </Link>

@@ -11752,7 +11752,7 @@ const finalData = jsonObj.map(el => {
     <span>{el['SC L 2']}</span>
     <span>{el['SC L 3']}</span>
     <span>{el['SC L4']}</span>
-
+    <button>Change</button>
   </div>
   )
 })
@@ -11761,8 +11761,11 @@ console.log(finalData);
 const Dashboard = () => {
   return (
     <div className='container'>
-      <h1 className='subtitle'>Dashboard</h1>
+      <h1 className='subtitle'>Analytics</h1>
       <iframe title="Incident visualisation" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=57b9aa3e-ec33-4b22-b159-4959948d9321&autoAuth=true&ctid=79613a65-6980-419a-8ddf-44bb3bff67db" frameborder="0" allowFullScreen="true"></iframe>
+      
+      <h1 className='subtitle'>History</h1>
+      
       <div className='filter-bar'>
         <span>Sort by: </span>
         <button>PPM</button>
