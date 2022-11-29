@@ -8,7 +8,7 @@ const Navbar = ({isClick}) => {
   
   return (
     <nav className='navbar-grid'>
-        <img src='public/ERA-logo.png'/>
+        <img src={`${process.env.PUBLIC_URL}/assets/logo.png`}/>
         <div className='navbar-item-grid'>
           <Link to="/">Dashboard</Link>
           <Link to="/create">Create New </Link>

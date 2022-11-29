@@ -2,7 +2,9 @@ import React from 'react'
 
 const Risk = () => {
   return (
-    <div>Risk</div>
+    <div className='risk'>
+      <img src={`${process.env.PUBLIC_URL}/assets/Picture13.png`}></img>
+    </div>
   )
 }
 
