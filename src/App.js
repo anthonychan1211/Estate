@@ -15,7 +15,7 @@ function App() {
       <Navbar />
       
    <Routes>
-        <Route path='/' element={<Dashboard/>} />
+        <Route path='/Estate' element={<Dashboard/>} />
         <Route path='/create' element={<CreateNew/>} />
         <Route path='/change' element={<ChangeCurrent/>} />
         <Route path='/risk' element={<Risk/>} />
