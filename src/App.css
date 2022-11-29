@@ -106,11 +106,10 @@ select{
 }
 
 .flex img{
-  /* width: 400px; */
   height: 400px;
 }
 .card{
-  /* border: 1px solid black; */
+  padding: 20px;
   background-color: #eee;
   border-radius: 20px;
   overflow: hidden;

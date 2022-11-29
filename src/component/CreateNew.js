@@ -13,7 +13,6 @@ const CreateNew = () => {
     e.currentTarget.classList.add('open');
     let tar = e.currentTarget.querySelector('p');
     setIsChosen(tar.innerText);
-    console.log(e.target)
   }
   useEffect(() => {
     const close = (e) => {
@@ -29,11 +28,11 @@ const CreateNew = () => {
   return (
     <div className='flex' >
       <div onMouseDown={handleClick} onMouseUp={handleRelease} className='card'>
-        <img src="house.png" alt="house"></img>
+        <img src="house.avif" alt="house"></img>
         <p>Create New Site</p>
       </div>
       <div  onMouseDown={handleClick} onMouseUp={handleRelease} className='card'>
-        <img src="maintenance.webp" alt="PPM"></img>
+        <img src="maintenance.jpg" alt="PPM"></img>
         <p>Create New PPM</p>
       </div>
       {isChosen=="Create New Site" && <CreateNewSite />}
